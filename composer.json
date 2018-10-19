@@ -1,0 +1,7 @@
+{
+    "require": {
+        "cebe/markdown": "~1.2.0",
+	"chillerlan/php-qrcode": "dev-master",
+        "endroid/qr-code": "^3.4"
+    }
+}
