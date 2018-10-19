@@ -10,7 +10,7 @@ The basic idea was to create an open food database that included several major c
 
 * Database keyed by UPC codes 
 * Photos of the labels of foods
-* Ingredient Lists (derived from photos of the ingredient labels, using [Amazon Mechanical Turk](TURKURL )
+* Ingredient Lists (derived from photos of the ingredient labels, using [Amazon Mechanical Turk](https://www.mturk.com/)
 * Nutrition Label data )(derived from photos of nutorion labels, using Amazon Mechanical Turk )
 
 
