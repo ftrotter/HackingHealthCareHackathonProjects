@@ -1,5 +1,7 @@
 # Understanding Addiction
 
+![Image of Addiction](noun_addiction_1000163_100x100.png)
+
 The first thing to understand about addiction is the strict, clinical definition of the word, which is frequently misused. Rather than advocate a specific definition, consider the following definitions, from different expert bodies:
 
 [Addiction is a complex condition, a brain disease that is manifested by compulsive substance use despite harmful consequence. From the American Psychiatric Association](https://www.psychiatry.org/patients-families/addiction/what-is-addiction)
