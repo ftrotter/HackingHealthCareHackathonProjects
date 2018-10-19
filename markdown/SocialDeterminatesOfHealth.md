@@ -1,4 +1,7 @@
 # Social Determinates of Health
+
+![Image of Addiction](noun_Family Life Care_1831616.png)
+
 At the heart of notions of Health Equity or Culture of Health is the notion that our personal resources, environment, race, employment status and other aspects of your place and role in society have profound impacts on our ability to access healthcare and to generally stay healthy. Social Determinates of Health (SDH)
 
 For a dry introduction, look to the CDC which defined SDH as [Conditions in the places where people live, learn, work, and play affect a wide range of health risks and outcomes.1 These conditions are known as social determinants of health (SDOH).](https://www.cdc.gov/socialdeterminants/).  For further definition, consider reading:
