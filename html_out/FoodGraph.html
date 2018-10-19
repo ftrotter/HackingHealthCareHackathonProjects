@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>FoodGraph</title>
+  </head>
+  <body>
+<!-- end get_html_header -->
+ <div class="container-fluid">
+<h1>Food Graph</h1>
+<p>We had a project to crowd-source food data that we had been working on. The rational for this came from a request we got from Cincinatti Childrens Hospital. Many of their most complex patients had two complex nutrition requirements. Perhaps a food allergy in combination with a food sensitity related to a seperate health condition like Crohns, etc. For these childrens parents and other caregivers, the calculus of allowable food was very very hard to do. We realized that was a generalied problem, with the combinatorics of diets.</p>
+<p>How can a person be both Vegan and Halal? Vegetarian and avoiding avocados becasue of an allergy? The potential combinations can easily be resolved with a commercial-grade food database, but we wanted to create a proliferation of targeted diet apps by providing the underlying food ingredient and health calculations in an automated fashion. </p>
+<p>Further, for public health research it is possible to use the forced ordering (ingredient lists are ordered by volume, but contain recursively defined lists) as well as nutrition density to reverse engineer the sources and types of caloric intake with much greater accuracy. This is a big data ML type project that is impossible without reliable underlying data. </p>
+<p>The basic idea was to create an open food database that included several major components:</p>
+<ul>
+<li>Database keyed by UPC codes </li>
+<li>Photos of the labels of foods</li>
+<li>Ingredient Lists (derived from photos of the ingredient labels, using <b>Amazon Mechanical Turk</b> <img width='100px'   src='qrcode_images/a4c4b8acf70fc3195eb8ba4ae2ad0659.png'></li>
+<li>Nutrition Label data )(derived from photos of nutorion labels, using Amazon Mechanical Turk )</li>
+</ul>
+<h2>Software Components</h2>
+<ul>
+<li>An Iphone app that took rapid succession the following:<ul>
+<li>UPC code</li>
+<li>Photo of the Label</li>
+<li>Photo of the Nutirtion Label </li>
+<li>Photo of the Ingredient List</li>
+</ul>
+</li>
+<li>A php API that accepted what the iphone app uploaded (very rudimentary)</li>
+<li>A php-based integration with Mechanical Turk that showed people either a nutition photo or a ingredient list and asked them to "human OCR them"</li>
+</ul>
+<h2>Tasks</h2>
+<p>Since we last worked on the problem. several things have changed.</p>
+<ul>
+<li>The iphone app no longer works, because that happens</li>
+<li>The php backend needs to be updated to a reasonable Laravel framswork-based API. </li>
+<li>The whole Amazon Turk integration could be improved dramatically</li>
+<li>Or replaced with one of the more modern compuer OCR mechanism from Google or Microsoft</li>
+</ul>
+
+
+<!-- from get_html_footer()  -->
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
