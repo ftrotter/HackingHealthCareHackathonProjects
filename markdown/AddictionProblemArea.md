@@ -24,6 +24,9 @@ What has been shown to be the most effective in treating opioid addiction specif
 Beyond that, consider these resources:
 
 * The [CDC guidelines for opioid](https://www.cdc.gov/drugoverdose/prescribing/guideline.html) which differentiate between acute prescriptions and ongoing pain management.
+* A [CDC infograph on the same information](https://www.cdc.gov/drugoverdose/pdf/guidelines_at-a-glance-a.pdf)
+
+
 
 
 
