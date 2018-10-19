@@ -16,7 +16,7 @@ The Z-codes are ICD 10 codes that are prefixed with a 'Z' that are used to code 
 
 To be illustrative of the specific scope of what might count as a Social Determinate of Health. Consider reading [Don't Sleep on Z Codes](https://www.fortherecordmag.com/archives/0517p14.shtml) and [Z-code advice for hurricane injuries](https://www.texmed.org/Template.aspx?id=45851). 
 
-## Alex Drane State of Us
+## State of Us (Alex Drane for Prudential)
 
 Rather than continuing to provide reading materials, you might also consider watching the new series from [wellness expert Alex Drane](https://twitter.com/adrane), (already famous for her [unmentionables series](https://www.youtube.com/watch?v=Pn4ZKpNJ8bE) on SDH) and Prudential called "[The State of US](https://www.youtube.com/playlist?list=PLhnxP5C1M5EWK_VloLsl9hlFftLJDda75)", which is focused on financial wellness, but ends up covering many classical social determinates of health. Dranes work has a unique gravity, since the messages are always simple-but-hard-messages while the parables that she uses to communicate her messages are unforgettable. You will find her work an improvement over my ranting.
 
