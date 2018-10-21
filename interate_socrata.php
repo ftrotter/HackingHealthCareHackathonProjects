@@ -45,7 +45,7 @@
 		$offset = $offset + 500;
 		echo '.';
 
-		$is_more = false;
+		//$is_more = false;
 	}
 
 
