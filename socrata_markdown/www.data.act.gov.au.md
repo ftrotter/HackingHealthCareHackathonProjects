@@ -107,61 +107,7 @@ The Territory Plan guides the planning and development of the ACT. It is changed
 The purpose of the Territory Plan map is to show the zones and overlays that apply to land in the ACT, in accordance with requirements under the Planning and Development Act 2007.
 
 Creative Commons License Creative Common By Attribution 4.0 (Australian Capital Territory),
-Please read Data Terms and Conditions statement before  data use.* [ACT Deaths - Accidental poisoning (X40-X49)](https://www.data.act.gov.au/d/cury-6dwm) - The data contained in this dataset is based on the Cause Of Death Unit Record File (CODURF) provided by the Australian Coordinating Registry (ACR), the data has been aggregated based on either a single or grouped ICD-10* classification.
-
-The ACT deaths data is collected and maintained by the ACT registrar of Births, Deaths and Marriages (ACT RBDM), which records all medical conditions that directly caused or contributed to the death and were applicable, ie the circumstances surrounding a death (eg. motor vehicle accident). 
- 
-The National Coronial Information System (NCIS) records and stores information relating to coroner  certified deaths for the purposes of retrieval, analysis, interpretation and dissemination to allow for informed death and injury prevention activities.
-
-The Australian Coordinating Registry (ACR) is an agency appointed by state and territory RBDMs and coroners to coordinate and manage approval of coded deaths data.
-  
-*The International Statistical Classification of Diseases and Related Health Problems Tenth Revision
-
-The data is presented by the ACT Government for the purpose of disseminating information for the benefit of the public. The ACT Government has taken great care to ensure the information in this report is as correct and accurate as possible. Whilst the information is considered to be true and correct at the date of publication, changes in circumstances after the time of publication may impact on the accuracy of the information. Differences in statistical methods and calculations, data updates and guidelines may result in the information contained in this report varying from previously published information.* [ACT Deaths - Land transport accidents (V01-V89)](https://www.data.act.gov.au/d/jc7f-9er6) - The data contained in this dataset is based on the Cause Of Death Unit Record File (CODURF) provided by the Australian Coordinating Registry (ACR), the data has been aggregated based on either a single or grouped ICD-10* classification.
-
-The ACT deaths data is collected and maintained by the ACT registrar of Births, Deaths and Marriages (ACT RBDM), which records all medical conditions that directly caused or contributed to the death and were applicable, ie the circumstances surrounding a death (eg. motor vehicle accident). 
- 
-The National Coronial Information System (NCIS) records and stores information relating to coroner  certified deaths for the purposes of retrieval, analysis, interpretation and dissemination to allow for informed death and injury prevention activities.
-
-The Australian Coordinating Registry (ACR) is an agency appointed by state and territory RBDMs and coroners to coordinate and manage approval of coded deaths data.
-  
-*The International Statistical Classification of Diseases and Related Health Problems Tenth Revision
-
-The data is presented by the ACT Government for the purpose of disseminating information for the benefit of the public. The ACT Government has taken great care to ensure the information in this report is as correct and accurate as possible. Whilst the information is considered to be true and correct at the date of publication, changes in circumstances after the time of publication may impact on the accuracy of the information. Differences in statistical methods and calculations, data updates and guidelines may result in the information contained in this report varying from previously published information.* [Burden of Disease - years of life lost (YLL, ACT and Australia 2011](https://www.data.act.gov.au/d/dzky-xmna) - Burden Of Disease by state and territory 
-
-Rate were age-standardised to the 2001 Australian Standard Population, and expressed per 1000 people
-Rate ratios compare the state/territory rate of burden with the Australian rate of burden
-* The value is less than the value shown  
-DALY (disability-adjusted life years): Measure (in years) of healthy life lost, either through premature death defined as dying before the expected life span at the age of death (YLL) or, equivalently, through living with ill health due to illness or injury (YLD).
-YLD (years lived with disability): A measure of the years of what could have been a healthy life but were instead spent in states of less than full health. YLD represent non-fatal burden.
-YLL (years of life lost): Years of life lost due to premature death, defined as dying before the global ideal life span at the age of death. YLL represent fatal burden.
-
-The data is presented by the ACT Government for the purpose of disseminating information for the benefit of the public. The ACT Government has taken great care to ensure the information in this report is as correct and accurate as possible. Whilst the information is considered to be true and correct at the date of publication, changes in circumstances after the time of publication may impact on the accuracy of the information. Differences in statistical methods and calculations, data updates and guidelines may result in the information contained in this report varying from previously published information.* [Burden Of Disease](https://www.data.act.gov.au/d/rcbk-jgjr) - Burden Of Disease by state and territory 
-
-Rate were age-standardised to the 2001 Australian Standard Population, and expressed per 1000 people
-Rate ratios compare the state/territory rate of burden with the Australian rate of burden
-* The value is less than the value shown  
-DALY (disability-adjusted life years): Measure (in years) of healthy life lost, either through premature death defined as dying before the expected life span at the age of death (YLL) or, equivalently, through living with ill health due to illness or injury (YLD).
-YLD (years lived with disability): A measure of the years of what could have been a healthy life but were instead spent in states of less than full health. YLD represent non-fatal burden.
-YLL (years of life lost): Years of life lost due to premature death, defined as dying before the global ideal life span at the age of death. YLL represent fatal burden.
-
-The data is presented by the ACT Government for the purpose of disseminating information for the benefit of the public. The ACT Government has taken great care to ensure the information in this report is as correct and accurate as possible. Whilst the information is considered to be true and correct at the date of publication, changes in circumstances after the time of publication may impact on the accuracy of the information. Differences in statistical methods and calculations, data updates and guidelines may result in the information contained in this report varying from previously published information.* [NHS - Risk of developing chronic disease based on waist circumference in ACT adults](https://www.data.act.gov.au/d/yfar-9xji) - National Health Survey: First Results, Summary health characteristics - ACT and Australia 2014-2015 
-
-Please note the following:
-
-" " not available for publication but included in totals where applicable, unless otherwise indicated	
-
-# Proportion has a margin of error >10 percentage points which should be considered when using this information.									
-
-Cells in this table containing data have been randomly adjusted to avoid the release of confidential data. Discrepancies may occur between sums of the component items and totals.										
-										
-Please note:
-- Body Mass Index is derived from measured height and weight. In 2014-15, 26.8% of respondents aged 18 years and over did not have their height, weight or both measured. For these respondents, imputation was used to obtain height, weight and BMI scores. 				
-- In 2014-15, 28.8% of respondents aged 18 years and over did not have their waist measured. For these respondents, imputation was used to obtain waist. For more information see Appendix 2: Physical measurements in the National Health Survey. 							
-- A waist circumference of 94 cm or more for men or 80 cm or more for women.							
-- A waist circumference of 102 cm or more for men or 88 cm or more for women.	
-						
-The data is presented by the ACT Government for the purpose of disseminating information for the benefit of the public. The ACT Government has taken great care to ensure the information in this report is as correct and accurate as possible. Whilst the information is considered to be true and correct at the date of publication, changes in circumstances after the time of publication may impact on the accuracy of the information. Differences in statistical methods and calculations, data updates and guidelines may result in the information contained in this report varying from previously published information.* [ACT Survey Control Marks](https://www.data.act.gov.au/d/4er5-z7dn) - A physical marker that is used as a stable basis for survey measurement. The mark is normally coordinated either horizontally and/or vertically using a recognised coordinate system. The mark can be used to coordinate surveys in the surrounding area. Survey Control Marks are displayed in ACTmapi by Mark type.
+Please read Data Terms and Conditions statement before  data use.* [ACT Survey Control Marks](https://www.data.act.gov.au/d/4er5-z7dn) - A physical marker that is used as a stable basis for survey measurement. The mark is normally coordinated either horizontally and/or vertically using a recognised coordinate system. The mark can be used to coordinate surveys in the surrounding area. Survey Control Marks are displayed in ACTmapi by Mark type.
 Trig Stations (MC)
 
 Identifier: district names, old surveyors' names, for example, Tennent, Goodwin.

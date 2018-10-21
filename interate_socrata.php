@@ -44,6 +44,7 @@
 
 		$offset = $offset + 100;
 		echo '.';
+		$is_more = false;
 	}
 
 
@@ -56,10 +57,10 @@ Socrata Healthcare Datasets
 uasort($dataset_by_domain, function ($a, $b) {
     $a = count($a);
     $b = count($b);
-    return ($a == $b) ? 0 : (($a < $b) ? -1 : 1);
+    return ($a == $b) ? 0 : (($a > $b) ? -1 : 1);
 });
 
-	$socrata_dir = __DIR__ .'/socrata_markdown/';
+	$socrata_dir = './socrata_markdown/';
 	foreach($dataset_by_domain as $domain => $dataset_list){
 
 		$dataset_count = count($dataset_list);
@@ -68,7 +69,7 @@ uasort($dataset_by_domain, function ($a, $b) {
 
 		$markdown .= "* [$domain]($domain_file) $dataset_count health datasets from: ";
 		$c = '';
-		foreach($domain_attributions as $attribution){
+		foreach($domain_attributions[$domain] as $attribution){
 			$markdown .= "$c $attribution ";
 			$c = ',';
 		}

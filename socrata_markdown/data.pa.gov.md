@@ -41,18 +41,7 @@ Counts of students attending education classes on a full-time basis outside thei
 
 Morning and afternoon detail for Half day grades is not available in PENN Data. Therefore, PKH equals the sum of PKA and PKP enrollment, K4H equals the sum of K4A and K4P enrollment, and K5H equals the sum of K5A and K5P enrollment.
 
-County totals are unique counts of students being educated by public Local Education Agencies. LEA and School level reports may not sum to the County total.* [Public School Enrollments by County, Grade, and Race, Full-Time Out-of-District Special Education 2016-2017 Education](https://data.pa.gov/d/efwx-dd2x) - 2016-2017 enrollments for all publicly funded schools in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools, intermediate units, and state operated educational facilities. Local education agencies were asked to report those students who were enrolled and attending as of October 3, 2016.
-
-County and Statewide Totals Notes:	
-
-Statewide and county totals include counts of students attending education classes on a full-time basis outside their parents' district of residence. This data was obtained from the Bureau of Special Education (PENNDATA 2016).	
-
-
-Intermediate Unit and CTC Part-day enrollments are excluded from county and state totals.	
-
-Statewide and county totals are unique counts of students being educated by public Local Education Agencies. LEA and School level reports may not sum to the County and Statewide totals.	
-
-Source: Pennsylvania Information Management System (PIMS)* [Public School Enrollment by Local Education Agency (LEA) 2017-2018 Education](https://data.pa.gov/d/gj39-jxwm) - 2017-2018 enrollments for all publicly funded schools in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools, intermediate units, and state operated educational facilities. Local education agencies were asked to report those students who were enrolled and attending as of October 1, 2017.
+County totals are unique counts of students being educated by public Local Education Agencies. LEA and School level reports may not sum to the County total.* [Public School Enrollment by Local Education Agency and School 2017-2018 Education](https://data.pa.gov/d/j9sb-3uu4) - 2017-2018 enrollments for all publicly funded schools in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools, intermediate units, and state operated educational facilities. Local education agencies were asked to report those students who were enrolled and attending as of October 1, 2017.
 
 County and Statewide Totals Notes:	
 
@@ -63,7 +52,7 @@ Intermediate Unit and CTC Part-day enrollments are excluded from county and stat
 
 Statewide and county totals are unique counts of students being educated by public Local Education Agencies. LEA and School level reports may not sum to the County and Statewide totals.	
 
-Source: Pennsylvania Information Management System (PIMS)* [Medicaid and CHIP Open Data Portal Federal](https://data.pa.gov/d/rt5d-4k92) - The home of Medicaid and CHIP open data provided by the Federal Government. 
+Source: Pennsylvania Information Management System (PIMS)* [Federated Water Quality Monitoring Station Data 2008 to Current Environmental Protection](https://data.pa.gov/d/vna2-gb3x) - PA Department of Environmental Protection (DEP) Water Quality Network Station Location and Samples Data submitted to the Environmental Protection Agency (EPA) through the National Environmental Information Exchange Network for the national STORET data warehouse.  Includes Monitoring Station location data and sample results from 2008 through June, 2017.* [Medicaid and CHIP Open Data Portal Federal](https://data.pa.gov/d/rt5d-4k92) - The home of Medicaid and CHIP open data provided by the Federal Government. 
 Conduct research and design data visualizations using open data from Medicaid and the Children's' Health Insurance Program (CHIP)* [Public School Enrollment by Local Education Agency, School and Gender 2016-2017 Education](https://data.pa.gov/d/ewt5-94v3) - 2016-2017 enrollments for all publicly funded schools in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools, intermediate units, and state operated educational facilities. Local education agencies were asked to report those students who were enrolled and attending as of October 3, 2016.
 
 County and Statewide Totals Notes:	
@@ -88,7 +77,7 @@ This analysis is restricted to newborns with Pennsylvania-state residence who we
 Disclaimer: 
 PHC4’s database contains statewide hospital discharge data submitted to PHC4 by Pennsylvania hospitals.  Every reasonable effort has been made to ensure the accuracy of the information obtained from the Uniform Claims and Billing Form (UB-82/92/04) data elements. Computer collection edits and validation edits provide opportunity to correct specific errors that may have occurred prior to, during or after submission of data.  The ultimate responsibility for data accuracy lies with individual providers.
 PHC4 agents and staff make no representation, guarantee, or warranty, expressed or implied that the data received from the hospitals are error-free, or that the use of this data will prevent differences of opinion or disputes with those who use published reports or purchased data.  PHC4 will bear no responsibility or liability for the results or consequences of its use.* [PHC4 Map - Rate of Neonatal Abstinence Syndrome per 1,000 Newborn Stays by County of Residence, FYs 2016-2017](https://data.pa.gov/d/3gxt-wtue) - Countywide counts of newborn hospital stays with Neonatal Abstinence Syndrome (NAS) and countywide rates of newborn hospital stays with (NAS) per 1,000 newborn stays.  Neonatal Abstinence Syndrome, or neonatal drug withdrawal, is an array of problems that develops shortly after birth in newborns who were exposed to addictive drugs, most often opioids, while in the mother’s womb. Withdrawal signs develop because these newborns are no longer exposed to the drug for which they have become physically dependent. This analysis is restricted to newborns with Pennsylvania-state residence who were hospitalized in Pennsylvania hospitals.
-Disclaimer: Pennsylvania Health Care Cost Containment Council (PHC4) database contains statewide hospital discharge data submitted to PHC4 by Pennsylvania hospitals.  Every reasonable effort has been made to ensure the accuracy of the information obtained from the Uniform Claims and Billing Form (UB-82/92/04) data elements. Computer collection edits and validation edits provide opportunity to correct specific errors that may have occurred prior to, during or after submission of data.  The ultimate responsibility for data accuracy lies with individual providers. PHC4 agents and staff make no representation, guarantee, or warranty, expressed or implied that the data received from the hospitals are error-free, or that the use of this data will prevent differences of opinion or disputes with those who use published reports or purchased data.  PHC4 will bear no responsibility or liability for the results or consequences of its use.* [Public School Enrollment by Local Education Agency and School 2017-2018 Education](https://data.pa.gov/d/j9sb-3uu4) - 2017-2018 enrollments for all publicly funded schools in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools, intermediate units, and state operated educational facilities. Local education agencies were asked to report those students who were enrolled and attending as of October 1, 2017.
+Disclaimer: Pennsylvania Health Care Cost Containment Council (PHC4) database contains statewide hospital discharge data submitted to PHC4 by Pennsylvania hospitals.  Every reasonable effort has been made to ensure the accuracy of the information obtained from the Uniform Claims and Billing Form (UB-82/92/04) data elements. Computer collection edits and validation edits provide opportunity to correct specific errors that may have occurred prior to, during or after submission of data.  The ultimate responsibility for data accuracy lies with individual providers. PHC4 agents and staff make no representation, guarantee, or warranty, expressed or implied that the data received from the hospitals are error-free, or that the use of this data will prevent differences of opinion or disputes with those who use published reports or purchased data.  PHC4 will bear no responsibility or liability for the results or consequences of its use.* [Public School Enrollment by Local Education Agency, School and Gender 2017-2018 Education](https://data.pa.gov/d/bs4m-mbfd) - 2017-2018 enrollments for all publicly funded schools in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools, intermediate units, and state operated educational facilities. Local education agencies were asked to report those students who were enrolled and attending as of October 1, 2017.
 
 County and Statewide Totals Notes:	
 
@@ -99,7 +88,18 @@ Intermediate Unit and CTC Part-day enrollments are excluded from county and stat
 
 Statewide and county totals are unique counts of students being educated by public Local Education Agencies. LEA and School level reports may not sum to the County and Statewide totals.	
 
-Source: Pennsylvania Information Management System (PIMS)* [Federated Water Quality Monitoring Station Data 2008 to Current Environmental Protection](https://data.pa.gov/d/vna2-gb3x) - PA Department of Environmental Protection (DEP) Water Quality Network Station Location and Samples Data submitted to the Environmental Protection Agency (EPA) through the National Environmental Information Exchange Network for the national STORET data warehouse.  Includes Monitoring Station location data and sample results from 2008 through June, 2017.* [Public School Enrollment by Local Education Agency, School and Gender 2017-2018 Education](https://data.pa.gov/d/bs4m-mbfd) - 2017-2018 enrollments for all publicly funded schools in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools, intermediate units, and state operated educational facilities. Local education agencies were asked to report those students who were enrolled and attending as of October 1, 2017.
+Source: Pennsylvania Information Management System (PIMS)* [Public School Enrollments by County, Grade, and Race, Full-Time Out-of-District Special Education 2016-2017 Education](https://data.pa.gov/d/efwx-dd2x) - 2016-2017 enrollments for all publicly funded schools in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools, intermediate units, and state operated educational facilities. Local education agencies were asked to report those students who were enrolled and attending as of October 3, 2016.
+
+County and Statewide Totals Notes:	
+
+Statewide and county totals include counts of students attending education classes on a full-time basis outside their parents' district of residence. This data was obtained from the Bureau of Special Education (PENNDATA 2016).	
+
+
+Intermediate Unit and CTC Part-day enrollments are excluded from county and state totals.	
+
+Statewide and county totals are unique counts of students being educated by public Local Education Agencies. LEA and School level reports may not sum to the County and Statewide totals.	
+
+Source: Pennsylvania Information Management System (PIMS)* [Public School Enrollment by Local Education Agency (LEA) 2017-2018 Education](https://data.pa.gov/d/gj39-jxwm) - 2017-2018 enrollments for all publicly funded schools in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools, intermediate units, and state operated educational facilities. Local education agencies were asked to report those students who were enrolled and attending as of October 1, 2017.
 
 County and Statewide Totals Notes:	
 
@@ -110,97 +110,7 @@ Intermediate Unit and CTC Part-day enrollments are excluded from county and stat
 
 Statewide and county totals are unique counts of students being educated by public Local Education Agencies. LEA and School level reports may not sum to the County and Statewide totals.	
 
-Source: Pennsylvania Information Management System (PIMS)* [Average Medicaid Enrollment by State Fiscal Year (Current Year-to-Date)](https://data.pa.gov/d/5geg-u2c6) - Persons enrolled in Medical Assistance (Medicaid)  for a given month. Includes Temporary Assistance for Needy Families (TANF), General Assistance (GA), Disabled, & Waiver categories.* [State Structurally Deficient Bridges Let CY 2015-2020 Transportation](https://data.pa.gov/d/we8x-iva4) - This is a listing of structures that are identified as part of the Governor's Bridge Goal and are currently 'Let' for the Calendar Year 2015-2020
-LET – award (a contract for a particular project) to an applicant
-
-RBR - This public-private partnership (P3) Rapid Bridge Replacement Project was awarded by the Pennsylvania Department of Transportation (PennDOT) to the consortium of Plenary Walsh Keystone Partners (PWKP). Please note that all dates use the “Let” date for PennDOT projects and the NTP (notice to proceed) dates for the P3 structures. 
-
-“N” or “- -“ is null or no information
-DEMO - means the structure has been demolished. 
-
-This document contains inspection information and may not be used in legal actions or proceedings against the bridge owner. (Reference 65 P.S. Sec 66.1 et sep., 75 pa C.S. Sec 3754 and 23 U.S.C. Sec 409.)
-
-The project is an initiative to replace aging bridges throughout Pennsylvania. Replacing the bridges will provide motorists with new, modern structures and allow PennDOT to remove them from their structurally deficient list. 
-
-The bridges are primarily crossings on smaller state highways, many in rural areas, rather than interstate bridges or large river crossings.
-
-General Disclaimer:
-This data is a compilation of information from different databases and planned projects (current as of posting), and may contain errors and omissions. Furthermore, all information contained herein is to be used for general informational purposes only and is subject to change without notice. Please see the listed contact for specific data questions. This data also contains structural inspection, project selection and scheduling information that is provided in the interest of transparency without waiving any legal rights.  This data may contain essential components of protected safety studies, which are not subject to disclosure or use in legal actions or proceedings against the bridge owner.  See 23 U.S.C. § 409; 75 Pa. C.S. § 3754; 65 P.S. § 67.101 et seq.* [Average Medicaid Enrollment by State Fiscal Year (Current Year-to-Date)](https://data.pa.gov/d/5geg-u2c6) - Persons enrolled in Medical Assistance (Medicaid)  for a given month. Includes Temporary Assistance for Needy Families (TANF), General Assistance (GA), Disabled, & Waiver categories.* [State Structurally Deficient Bridges Let CY 2015-2020 Transportation](https://data.pa.gov/d/we8x-iva4) - This is a listing of structures that are identified as part of the Governor's Bridge Goal and are currently 'Let' for the Calendar Year 2015-2020
-LET – award (a contract for a particular project) to an applicant
-
-RBR - This public-private partnership (P3) Rapid Bridge Replacement Project was awarded by the Pennsylvania Department of Transportation (PennDOT) to the consortium of Plenary Walsh Keystone Partners (PWKP). Please note that all dates use the “Let” date for PennDOT projects and the NTP (notice to proceed) dates for the P3 structures. 
-
-“N” or “- -“ is null or no information
-DEMO - means the structure has been demolished. 
-
-This document contains inspection information and may not be used in legal actions or proceedings against the bridge owner. (Reference 65 P.S. Sec 66.1 et sep., 75 pa C.S. Sec 3754 and 23 U.S.C. Sec 409.)
-
-The project is an initiative to replace aging bridges throughout Pennsylvania. Replacing the bridges will provide motorists with new, modern structures and allow PennDOT to remove them from their structurally deficient list. 
-
-The bridges are primarily crossings on smaller state highways, many in rural areas, rather than interstate bridges or large river crossings.
-
-General Disclaimer:
-This data is a compilation of information from different databases and planned projects (current as of posting), and may contain errors and omissions. Furthermore, all information contained herein is to be used for general informational purposes only and is subject to change without notice. Please see the listed contact for specific data questions. This data also contains structural inspection, project selection and scheduling information that is provided in the interest of transparency without waiving any legal rights.  This data may contain essential components of protected safety studies, which are not subject to disclosure or use in legal actions or proceedings against the bridge owner.  See 23 U.S.C. § 409; 75 Pa. C.S. § 3754; 65 P.S. § 67.101 et seq.* [Centers of Excellence Map Human Services](https://data.pa.gov/d/nmey-eq2q) - Centers of Excellence help ensure that people with opioid-related substance use disorder stay in treatment to receive follow-up care and are supported within their communities. The centers coordinate care for people with Medicaid, and treatment is team-based and “whole person” focused, with the explicit goal of integrating behavioral health and primary care.* [Buprenorphine Dispensation Data Quarter 3 2016 through Current Statewide Health](https://data.pa.gov/d/6js5-2mjf) - View quarterly trends in buprenorphine dispensation data. Please note that buprenorphine data received by the PDMP is restricted to prescriptions filled by pharmacies. The PDMP does not collect information on the reason a controlled substance is prescribed, nor does it collect data from substance abuse treatment facilities or dispensing prescribers providing buprenorphine for substance abuse treatment. Buprenorphine is sometimes prescribed off-label for pain. Please see PDMP Data Technical Notes for additional details: https://www.health.pa.gov/topics/programs/PDMP/Pages/Data.aspx* [Substance Abuse and Mental Health Services Administration (SAMHSA)](https://data.pa.gov/d/a284-fybs) - The Substance Abuse and Mental Health Services Administration (SAMHSA) is the agency within the U.S. Department of Health and Human Services that leads public health efforts to advance the behavioral health of the nation. SAMHSA's mission is to reduce the impact of substance abuse and mental illness on America's communities.
-Congress established the Substance Abuse and Mental Health Services Administration (SAMHSA) in 1992 to make substance use and mental disorder information, services, and research more accessible.
-SAMHSA works closely with other health agencies to advance behavioral health priorities.
-SAMHSA Strategic Initiatives help provide treatment and services for people with mental and substance use disorders, support the families of people with mental and substance use disorders, build strong and supportive communities, prevent costly behavioral health problems, and promote better health for all Americans.
-
-This is a link to their Data on their website. https://www.samhsa.gov/* [Public School Enrollments by County and Grade, Full-Time Out-of-District Special Education 2016-2017 Education](https://data.pa.gov/d/mpgv-pypc) - 2016-2017 enrollments for all publicly funded schools in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools, intermediate units, and state operated educational facilities. Local education agencies were asked to report those students who were enrolled and attending as of October 3, 2016.
-
-County and Statewide Totals Notes:	
-
-Statewide and county totals include counts of students attending education classes on a full-time basis outside their parents' district of residence. This data was obtained from the Bureau of Special Education (PENNDATA 2016).	
-
-
-Intermediate Unit and CTC Part-day enrollments are excluded from county and state totals.	
-
-Statewide and county totals are unique counts of students being educated by public Local Education Agencies. LEA and School level reports may not sum to the County and Statewide totals.	
-
-Source: Pennsylvania Information Management System (PIMS)* [Percent of Hospitalizations for Opioid Overdose by Anticipated Payer Statewide Health Care Cost Containment Council (PHC4)](https://data.pa.gov/d/e67c-nheg) - Percent of hospitalizations for opioid overdose, categorized by a principal diagnosis of heroin overdose or opioid pain medication overdose, with specified anticipated primary payer as listed in the hospital record.
-
-This analysis is restricted to Pennsylvania residents age 15 and older who were hospitalized in Pennsylvania general acute care hospitals.* [PHC4 Bar Graph - Rate of NAS per 1,000 Newborn Stays, FYs 2000-2001 to FYs 2016-2017](https://data.pa.gov/d/vkt5-5vtw) - Statewide rates of newborn hospital stays with Neonatal Abstinence Syndrome (NAS) per 1,000 newborn stays. 
-Neonatal Abstinence Syndrome, or neonatal drug withdrawal, is an array of problems that develops shortly after birth in newborns who were exposed to addictive drugs, most often opioids, while in the mother’s womb. Withdrawal signs develop because these newborns are no longer exposed to the drug for which they have become physically dependent.
-This analysis is restricted to newborns with Pennsylvania-state residence who were hospitalized in Pennsylvania hospitals.
-
-Disclaimer:
-PHC4’s database contains statewide hospital discharge data submitted to PHC4 by Pennsylvania hospitals.  Every reasonable effort has been made to ensure the accuracy of the information obtained from the Uniform Claims and Billing Form (UB-82/92/04) data elements. Computer collection edits and validation edits provide opportunity to correct specific errors that may have occurred prior to, during or after submission of data.  The ultimate responsibility for data accuracy lies with individual providers.
-PHC4 agents and staff make no representation, guarantee, or warranty, expressed or implied that the data received from the hospitals are error-free, or that the use of this data will prevent differences of opinion or disputes with those who use published reports or purchased data.  PHC4 will bear no responsibility or liability for the results or consequences of its use.* [Post Secondary Completions Total Awards/Degrees 2015-16 Education](https://data.pa.gov/d/jqcu-bcsg) - A listing of completion counts by Institution name, School year and the type of Degrees.* [Public School Enrollments by County, Grade and Gender, Full-Time Out-of-District Special Education 2016-2017 Education](https://data.pa.gov/d/ntar-sfa8) - 2016-2017 enrollments for all publicly funded schools in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools, intermediate units, and state operated educational facilities. Local education agencies were asked to report those students who were enrolled and attending as of October 3, 2016.
-
-County and Statewide Totals Notes:	
-
-Statewide and county totals include counts of students attending education classes on a full-time basis outside their parents' district of residence. This data was obtained from the Bureau of Special Education (PENNDATA 2016).	
-
-
-Intermediate Unit and CTC Part-day enrollments are excluded from county and state totals.	
-
-Statewide and county totals are unique counts of students being educated by public Local Education Agencies. LEA and School level reports may not sum to the County and Statewide totals.	
-
-Source: Pennsylvania Information Management System (PIMS)* [Public School Enrollment by County, Grade, and Gender 2016-2017 Education](https://data.pa.gov/d/s2t5-5km6) - 2016-2017 enrollments for all publicly funded schools in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools, intermediate units, and state operated educational facilities. Local education agencies were asked to report those students who were enrolled and attending as of October 3, 2016.
-
-County and Statewide Totals Notes:	
-
-Statewide and county totals include counts of students attending education classes on a full-time basis outside their parents' district of residence. This data was obtained from the Bureau of Special Education (PENNDATA 2016).	
-
-
-Intermediate Unit and CTC Part-day enrollments are excluded from county and state totals.	
-
-Statewide and county totals are unique counts of students being educated by public Local Education Agencies. LEA and School level reports may not sum to the County and Statewide totals.	
-
-Source: Pennsylvania Information Management System (PIMS)
-
-Notes regarding County Totals:
-
-Enrollment for School Districts, Charter Schools, State Juvenile Correctional Institutions and Comprehensive CTCs are included.  Enrollments for Occupational CTCs and IUs are not included.
-
-Counts of students attending education classes on a full-time basis outside their parents' district of residence are included. This data was obtained from the Bureau of Special Education (PENNDATA 2016).	
-
-Morning and afternoon detail for Half day grades is not available in PENN Data. Therefore, PKH equals the sum of PKA and PKP enrollment, K4H equals the sum of K4A and K4P enrollment, and K5H equals the sum of K5A and K5P enrollment.
-
-County totals are unique counts of students being educated by public Local Education Agencies. LEA and School level reports may not sum to the County total.* [Center for Disease Control and Prevention Data Portal Federal](https://data.pa.gov/d/u2iu-6uqb) - The CDC is one of the major operating components of the Department of Health and Human Services. View CDC’s Official Mission Statements/Organizational Charts to learn more about CDC′s organizational structure.
-
-CDC works 24/7 to protect America from health, safety and security threats, both foreign and in the U.S. Whether diseases start at home or abroad, are chronic or acute, curable or preventable, human error or deliberate attack, CDC fights disease and supports communities and citizens to do the same.
-
-CDC increases the health security of our nation. As the nation’s health protection agency, CDC saves lives and protects people from health threats. To accomplish our mission, CDC conducts critical science and provides health information that protects our nation against expensive and dangerous health threats, and responds when these arise.* [Consumer Guide to Private Health Insurance Coverage for Mental Health and Substance Use Disorder Insurance](https://data.pa.gov/d/ve7e-zx99) - Treatment for mental health and substance use disorders, also known as drug and alcohol issues, is essential to the health and wellbeing of Pennsylvanians. And, insurance coverage for mental health and substance use disorder benefits is critical to ensuring consumers can access and afford these services. In many cases, the laws and regulations governing insurance companies require certain services to be covered in certain ways. In order to ensure Pennsylvanians understand what benefits they are guaranteed access to, the Pennsylvania Insurance Department has put together this consumer guide to health insurance coverage for mental health and substance use disorder treatment in the Commonwealth.* [Occupational Wages 2017 Labor and Industry](https://data.pa.gov/d/mdvn-squs) - Represents a comprehensive collection of occupational wage data available for Pennsylvania. Data are collected through the Occupational Employment Statistics program in cooperation with the U.S. Department of Labor’s Bureau of Labor Statistics. Occupational wage information can be used as a reference by educators, PACareerLink® staff, career counselors, Workforce Development Boards, economic developers, program planners, and others.
+Source: Pennsylvania Information Management System (PIMS)* [Occupational Wages 2017 Labor and Industry](https://data.pa.gov/d/mdvn-squs) - Represents a comprehensive collection of occupational wage data available for Pennsylvania. Data are collected through the Occupational Employment Statistics program in cooperation with the U.S. Department of Labor’s Bureau of Labor Statistics. Occupational wage information can be used as a reference by educators, PACareerLink® staff, career counselors, Workforce Development Boards, economic developers, program planners, and others.
 
 Technical Note
 Occupational wages do not represent a time series. Due to the prescribed production methodology, current occupational wages are not comparable to previously published occupational wages.* [Public School Enrollment by County and Grade 2016-2017 Education](https://data.pa.gov/d/q783-ab8h) - 2016-2017 enrollments for all publicly funded schools in Pennsylvania as reported by school districts, area vocational-technical schools, charter schools, intermediate units, and state operated educational facilities. Local education agencies were asked to report those students who were enrolled and attending as of October 3, 2016.
