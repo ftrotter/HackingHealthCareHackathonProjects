@@ -1,0 +1,8 @@
+# opendata.cityofhenderson.com health datasets
+* [Police - Use Of Force Data](https://opendata.cityofhenderson.com/d/5zby-isjy) - Any use of force by the Henderson Police Department’s officers is a critical concern, both to the public and to the law enforcement community. Police officers are often engaged in unpredictable and rapidly evolving situations and when the situation deems it appropriate, based on all of the facts and circumstances known to the officer, an officer may use reasonable force to carry out their duties.
+
+Sworn police personnel must have a clear understanding of their own authority and the limitations that regulate them in their duties. This is paramount as it relates to responding to resistance while engaged in the performance of the law enforcement mission.
+
+Investing police officers and corrections officers with the lawful authority to apply compliance techniques to protect the public welfare and carefully balancing all human interests are required. Therefore, our policy is that police officers and corrections officers will use only reasonable force to effectively bring an incident under control, while protecting the lives of the officers and/ or another. 
+
+We recognize and respect the value and special integrity of each human life. However there are individuals in our society that do resist our lawful actions. They may avoid arrest by flight, and/or resort to force or violence to commit their crimes, or harm the innocent and weak to further their illegal activities.  The Henderson Police Department is trained, willing and able to respond to those instances.

@@ -1,0 +1,2 @@
+# performance.fultoncountyga.gov health datasets
+* [Emergency Response Times](https://performance.fultoncountyga.gov/d/rabk-nf3y) - This data set represents the average response time for emergency vehicles.  Average response times have been calculated for each agency (Police, Fire and EMS), quarter of the year and call priority.  This data set contains response time only for Fulton County agencies serving the unincorporated part of the county.

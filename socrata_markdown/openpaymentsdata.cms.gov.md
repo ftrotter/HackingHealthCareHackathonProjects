@@ -1,0 +1,2 @@
+# openpaymentsdata.cms.gov health datasets
+* [Ownership Payment Data - Detailed Dataset 2016 Reporting Year](https://openpaymentsdata.cms.gov/d/5gdd-kf9d) - All ownership and investment payments from the 2016 program year [January 1 – December 31, 2016]* [Ownership Payment Data - Detailed Dataset 2017 Reporting Year](https://openpaymentsdata.cms.gov/d/dxxx-2p5m) - All ownership and investment payments from the 2017 program year [January 1 – December 31, 2017]

@@ -40,7 +40,7 @@
 		}
 
 		$offset = $offset + 100;
-		//echo '.';
+		echo '.';
 	}
 
 
@@ -50,21 +50,32 @@ Socrata Healthcare Datasets
 ======================
 ';
 
+	$socrata_dir = __DIR__ .'/socrata_markdown/';
 	foreach($dataset_by_domain as $domain => $dataset_list){
 
-		$markdown .= "## $domain\n";
+		$dataset_count = count($dataset_list);
 
+		$domain_file = $socrata_dir.$domain.'.md';
+
+		$markdown .= "* [$domain]($domain_file) $dataset_count health datasets\n";
+
+		$domain_markdown = "# $domain health datasets\n";
+	
 		foreach($dataset_list as $this_dataset){
+
+		
 			$name = $this_dataset['name'];
 			$description = $this_dataset['description'];
 			$permalink = $this_dataset['permalink'];
 
-			$markdown .= "* [$name]($permalink) - $description";
+			$domain_markdown .= "* [$name]($permalink) - $description";
 	
 		}
-	
+		file_put_contents($domain_file,$domain_markdown);
+		
 		$markdown .= "\n";
 
 	}
 
-echo $markdown;
+	file_put_contents('SocrataHealthDataSets.md',$markdown);
+

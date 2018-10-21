@@ -1,0 +1,2 @@
+# data.seattle.gov health datasets
+* [Broadway Cycle Track North Of E Union St](https://data.seattle.gov/d/j4vh-b42a) - The counters consist of two small tube sensors stretching across the street, which are attached to a small metal counting box made by Eco-Counter. The tubes only count people riding bikes. They are very accurate and designed to be used on greenways and cycle tracks.* [100 BROADWAY E](https://data.seattle.gov/d/rnp7-7hgw) - https://gisrevprxy.seattle.gov/arcgis/rest/services/ext/WM_CityGISLayers/MapServer/1

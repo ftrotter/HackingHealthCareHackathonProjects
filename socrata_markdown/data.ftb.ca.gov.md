@@ -1,0 +1,2 @@
+# data.ftb.ca.gov health datasets
+* [MHSF History](https://data.ftb.ca.gov/d/73ms-25na) - Adjusted gross income class statistics combined for all filing statuses for California residents personal income tax return data.<br/><br/>For more information by taxable year , see <a href='https://www.ftb.ca.gov/aboutftb/plans_reports.shtml, Annual Report'>https://www.ftb.ca.gov/aboutftb/plans_reports.shtml, Annual Report</a>, Table B-4A and B-2.

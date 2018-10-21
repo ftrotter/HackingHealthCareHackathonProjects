@@ -1,0 +1,10 @@
+# data.cese.nsw.gov.au health datasets
+* [Average weekly hours of attendance of children in the year before full-time school in NSW Government-operated and NSW Government-funded preschools, 2011-13](https://data.cese.nsw.gov.au/d/33x8-e3wq) - These results do not include long day care enrolment data because the Commonwealth Child Care Management System (CCMS) data does not provide hourly enrolment or attendance information.									
+
+Due to improved data collection, major modifications to calculation methods were agreed from 2011 resulting in breaks in the series for this performance indicator. These changes included the exclusion of (previously included) 3 year old children enrolled at government and community preschools and better estimates of preschool participation in long day care.									
+									
+Source: NSW Department of Education and Communities, 2012 Annual report on achieving universal access to early childhood education in NSW (forthcoming) and internal data* [Average weekly hours of attendance of children in the year before full-time school in NSW Government-operated and NSW Government-funded preschools, 2011-13](https://data.cese.nsw.gov.au/d/33x8-e3wq) - These results do not include long day care enrolment data because the Commonwealth Child Care Management System (CCMS) data does not provide hourly enrolment or attendance information.									
+
+Due to improved data collection, major modifications to calculation methods were agreed from 2011 resulting in breaks in the series for this performance indicator. These changes included the exclusion of (previously included) 3 year old children enrolled at government and community preschools and better estimates of preschool participation in long day care.									
+									
+Source: NSW Department of Education and Communities, 2012 Annual report on achieving universal access to early childhood education in NSW (forthcoming) and internal data

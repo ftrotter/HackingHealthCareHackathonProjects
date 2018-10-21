@@ -1,0 +1,2 @@
+# data.portmoody.ca health datasets
+* [Business Directory Health Care Filtered View](https://data.portmoody.ca/d/4tjq-7iqj) - A filtered view of all health care businesses from the Business Directory, a free, searchable directory providing accurate and up-to-date information on participating Port Moody businesses. The information is drawn directly from valid Port Moody business licence data and is automatically updated daily. It includes business name, description, website (where applicable), and contact details.
