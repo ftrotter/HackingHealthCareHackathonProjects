@@ -1,2 +1,5 @@
 # dashboard.alexandriava.gov health datasets
-* [Missed Refuse SR](https://dashboard.alexandriava.gov/d/8e75-iebm) - * [Employment Comparison (Per Capita)](https://dashboard.alexandriava.gov/d/8evn-j6v3) - * [Tons of Refuse Bar Chart](https://dashboard.alexandriava.gov/d/hftq-bdp7) - * [Tons of Refuse Collected](https://dashboard.alexandriava.gov/d/k89n-neuq) - 
+* [Missed Refuse SR](https://dashboard.alexandriava.gov/d/8e75-iebm) - 
+* [Tons of Refuse Collected](https://dashboard.alexandriava.gov/d/k89n-neuq) - 
+* [Tons of Refuse Bar Chart](https://dashboard.alexandriava.gov/d/hftq-bdp7) - 
+* [Employment Comparison (Per Capita)](https://dashboard.alexandriava.gov/d/8evn-j6v3) - 
