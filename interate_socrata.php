@@ -44,6 +44,8 @@
 
 		$offset = $offset + 500;
 		echo '.';
+
+		$is_more = false;
 	}
 
 
@@ -66,8 +68,8 @@ uasort($dataset_by_domain, function ($a, $b) {
 
 		$domain_file = $socrata_dir.$domain.'.md';
 
-		$markdown .= "* [$domain]($domain_file) $dataset_count health datasets\n ";
-		$c = "";
+		$markdown .= "* [$domain]($domain_file) $dataset_count health datasets\n";
+		$c = '';
 		foreach($domain_attributions[$domain] as $attribution){
 			
 			$markdown .= "$c * $attribution ";
