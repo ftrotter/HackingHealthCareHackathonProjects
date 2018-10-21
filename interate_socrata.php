@@ -72,8 +72,9 @@ uasort($dataset_by_domain, function ($a, $b) {
 		$c = '';
 		foreach($domain_attributions[$domain] as $attribution){
 			
-			$markdown .= "$c * $attribution ";
+			$markdown .= "$c  * $attribution ";
 			$c = "\n";
+
 		}
 
 
