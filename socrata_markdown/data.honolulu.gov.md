@@ -1,2 +1,2 @@
 # data.honolulu.gov health datasets
-* [Refuse Manual Pick Up Routes](https://data.honolulu.gov/d/6mix-hwjf) - Feature Service of refuse manual pick up routes.
+* [Refuse Manual Pick Up Routes](https://data.honolulu.gov/d/6mix-hwjf) - Feature Service of refuse manual pick up routes.* [Refuse Auto Pickup Routes](https://data.honolulu.gov/d/8iva-4xfs) - Refuse Auto Pickup Routes Feature Service

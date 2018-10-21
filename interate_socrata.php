@@ -5,6 +5,7 @@
 	$is_more = true;
 	$offset = 0;
 	$dataset_by_domain = [];
+	$domain_attributions = [];
 	while($is_more){
 
 		$url = $base_url . $offset;
@@ -21,6 +22,7 @@
 
 					$name = $this_result['resource']['name'];
 					$description = $this_result['resource']['description'];
+					$attribution = $this_result['resource']['attribution'];
 					$permalink = $this_result['permalink'];;
 
 					$tmp = [
@@ -30,6 +32,7 @@
 					];
 
 					$dataset_by_domain[$domain][] = $tmp;
+					$domain_attributions[$domain][$attribution] = $attribution;
 				}
 			}else{
 				$is_more = false;
@@ -49,6 +52,12 @@
 Socrata Healthcare Datasets
 ======================
 ';
+//https://stackoverflow.com/a/14704792/144364
+uasort($dataset_by_domain, function ($a, $b) {
+    $a = count($a);
+    $b = count($b);
+    return ($a == $b) ? 0 : (($a < $b) ? -1 : 1);
+});
 
 	$socrata_dir = __DIR__ .'/socrata_markdown/';
 	foreach($dataset_by_domain as $domain => $dataset_list){
@@ -57,7 +66,13 @@ Socrata Healthcare Datasets
 
 		$domain_file = $socrata_dir.$domain.'.md';
 
-		$markdown .= "* [$domain]($domain_file) $dataset_count health datasets\n";
+		$markdown .= "* [$domain]($domain_file) $dataset_count health datasets from: ";
+		$c = '';
+		foreach($domain_attributions as $attribution){
+			$markdown .= "$c $attribution ";
+			$c = ',';
+		}
+
 
 		$domain_markdown = "# $domain health datasets\n";
 	
