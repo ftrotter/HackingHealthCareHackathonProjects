@@ -1,6 +1,7 @@
 
 Socrata Healthcare Datasets
 ======================
+
 * [data.smcgov.org](./socrata_markdown/data.smcgov.org.md) 67 health datasets
   * County of San Mateo, Department of Housing 
   * CalRecycle 
@@ -12,11 +13,15 @@ Socrata Healthcare Datasets
   * MLS Listings 
   *  
   * Bay Area Water Supply and Conservation Agency 
-  * County of San Mateo Health System * [data.oregon.gov](./socrata_markdown/data.oregon.gov.md) 27 health datasets
+  * County of San Mateo Health System 
+* [data.oregon.gov](./socrata_markdown/data.oregon.gov.md) 27 health datasets
   * Oregon Healthcare-Associated Infections (HAI) Program 
-  * logistics folder Data Provided by: Oregon Healthcare-Associated Infections (HAI) Program * [greengov.data.ca.gov](./socrata_markdown/greengov.data.ca.gov.md) 4 health datasets
+  * logistics folder Data Provided by: Oregon Healthcare-Associated Infections (HAI) Program 
+* [greengov.data.ca.gov](./socrata_markdown/greengov.data.ca.gov.md) 4 health datasets
   * State Water Resources Control Board 
   * SMARTS Database/SWRCB/DWQ/Stormwater 
-  * California State Water Resources Control Board * [data.delaware.gov](./socrata_markdown/data.delaware.gov.md) 1 health datasets
-  * Department of Health and Social Services, Division of Public Health * [data.texas.gov](./socrata_markdown/data.texas.gov.md) 1 health datasets
+  * California State Water Resources Control Board 
+* [data.delaware.gov](./socrata_markdown/data.delaware.gov.md) 1 health datasets
+  * Department of Health and Social Services, Division of Public Health 
+* [data.texas.gov](./socrata_markdown/data.texas.gov.md) 1 health datasets
   * TX DFPS Data & Decision Support 
