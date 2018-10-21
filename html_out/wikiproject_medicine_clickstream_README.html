@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>wikiproject_medicine_clickstream_README</title>
+  </head>
+  <body>
+<!-- end get_html_header -->
+ <div class="container-fluid">
+<h1>Wikiproject Medicine Clickstream data</h1>
+<p>Wikipedia releases clickstream data:</p>
+<ul>
+<li><b>Data Documentation</b> <img width='100px'   src='qrcode_images/5be674ac4ec49a8931c40ded9f95fe20.png'></li>
+<li><b>Data Download</b> <img width='100px'   src='qrcode_images/853a5a6a7b9c4909ea452acc41f376f2.png'></li>
+</ul>
+<p>This allows us to see how people move betweeen Wikipedia pages. </p>
+<p>Wikipedia also has a project specifically designed to improve Medical and Health content on Wikipedia
+<b>WikiProject Medicine</b> <img width='100px'   src='qrcode_images/fbffd322fd765c21c09c47ed3c02a057.png'></p>
+<p>We can see the lists of pages that WikiProject Medicine concerns itself with by using the <b>Wikipedia API Category to Page API</b> <img width='100px'   src='qrcode_images/8a599754bf5934c50497aaf7354f0508.png'></p>
+<p>Note that there are multiple different categories. I think it is possible to replicate the WikiProject Medicine priority grid which is the last table on this page:
+<b>https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Medicine/Assessment</b> <img width='100px'   src='qrcode_images/bc1c52235f083c7e80e6f4a79a9c37aa.png'></p>
+<p>I also believe that it is possible to replicate the structure found here: 
+<b>https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/5/Biological_and_health_sciences/Health</b> <img width='100px'   src='qrcode_images/39d7db4c0672f04eb0b16881d12b6ee5.png'></p>
+<p>We can also reverse the search and show all of the categories of the pages that are inside the Wikiproject Medicine project, using the <b>Wikipedia Page API</b> <img width='100px'   src='qrcode_images/6022eff2d780ecf87f68d61cad30421b.png'></p>
+<p>The datasets of pages, categories and clickstream are massive datasets. 
+This dataset is a narrowing of these dataset to solve a very specific problem.</p>
+<p>Wikiproject medicine has had huge successes disseminating its information into other language in an impactful manner </p>
+<p><b>https://www.nytimes.com/2014/10/27/business/media/wikipedia-is-emerging-as-trusted-internet-source-for-information-on-ebola-.html</b> <img width='100px'   src='qrcode_images/ba260ce8875b04e0c379b4012833244b.png'></p>
+<p>One of this strategies is to use Wikipedias "internet in a box" program <b>https://meta.wikimedia.org/wiki/Internet-in-a-Box</b> <img width='100px'   src='qrcode_images/79d235ee936af24efca834f373e79e98.png'>
+So provide copy of the entire corpus of health information, in local languages all over the world, even in places where Internet is absent or very expensive. </p>
+<p>But to do this, they need to know presicely what content to provide. </p>
+<p>Using this dataset, we can answer the question "What pages should wikiproject medicine include" a question that can be answered by actual usage patterns. This might help WikiProject medicine to know, for instance, which Biology articles are vital to include. Further, it might be possible to advise the WikiProject Medicine editors on methods to improve their understanding of articles that are "central" from users priority but are not a high priority for the project. </p>
+<p>Of course, I also think it is important to simply "see" the wikipedia wikiproject medicine article as a flow-graph. 
+It is entirely possible that there might be insights that a wikipedian might be immediately be able to see in the graph that might be very difficult for someone else to understand. </p>
+<p>At a smaller scale I think it might be interesting to create interactive graphs that reveal the "neighborhood" around a given article, especially and article that has already reached FA status. </p>
+<h2>Whats included</h2>
+<ul>
+<li>category_to_resource.csv - How categories in wikiproject medicine relate to pages</li>
+<li>wikiproject_category.csv - The list of all wikiproject (which is groups of editors acting to address a specific issue) </li>
+<li>wikiproject_medicine_category - The list of wikiproject medicine categories</li>
+<li>wikiproject_medicine_clickstream - the clickstream data filtered to include the following<ul>
+<li>anytime a wikiproject article appears in the 'to' or 'from' fields</li>
+<li>anytime a page that is linked to by wikiproject medicine is in the 'to' or 'from' fields</li>
+</ul>
+</li>
+</ul>
+<h2>Looking elsewhere</h2>
+<p>We did not include it, or pre-filter the data, but I suspect that the page-view data (which shows how often a page was viewed) might be a good overlay for this.
+<b>https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews</b> <img width='100px'   src='qrcode_images/53c5748b4f396403a84a3ca035995cc5.png'></p>
+<p>Also, this might be a good job for Gephi..
+<b>https://gephi.org/</b> <img width='100px'   src='qrcode_images/5e72994bdee6975c6a832d8ac9a7fd19.png'></p>
+
+
+<!-- from get_html_footer()  -->
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+

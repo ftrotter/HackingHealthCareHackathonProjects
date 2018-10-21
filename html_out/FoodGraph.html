@@ -14,16 +14,19 @@
 <!-- end get_html_header -->
  <div class="container-fluid">
 <h1>Food Graph</h1>
-<p>We had a project to crowd-source food data that we had been working on. The rational for this came from a request we got from Cincinatti Childrens Hospital. Many of their most complex patients had two complex nutrition requirements. Perhaps a food allergy in combination with a food sensitity related to a seperate health condition like Crohns, etc. For these childrens parents and other caregivers, the calculus of allowable food was very very hard to do. We realized that was a generalied problem, with the combinatorics of diets.</p>
-<p>How can a person be both Vegan and Halal? Vegetarian and avoiding avocados becasue of an allergy? The potential combinations can easily be resolved with a commercial-grade food database, but we wanted to create a proliferation of targeted diet apps by providing the underlying food ingredient and health calculations in an automated fashion. </p>
-<p>Further, for public health research it is possible to use the forced ordering (ingredient lists are ordered by volume, but contain recursively defined lists) as well as nutrition density to reverse engineer the sources and types of caloric intake with much greater accuracy. This is a big data ML type project that is impossible without reliable underlying data. </p>
+<p>We had a project to crowd-source food data that we had been working on. Many people, espeically children, have mutliple food preferences and sensitivities. The calculus of allowable foods is very very hard to do. How can a person be both Vegan and Halal? Vegetarian and avoiding avocados because of an allergy? The potential combinations can easily be resolved with a commercial-grade food database, but we wanted to create a proliferation of targeted diet apps by providing the underlying food ingredient and health calculations in an automated fashion. </p>
+<p>It is possible to use the forced ordering (ingredient lists are ordered by volume, but contain recursively defined lists) as well as nutrition density to reverse engineer the sources and types of caloric intake with much greater accuracy. This is a big data ML type project that is impossible without reliable underlying data. </p>
 <p>The basic idea was to create an open food database that included several major components:</p>
 <ul>
 <li>Database keyed by UPC codes </li>
 <li>Photos of the labels of foods</li>
-<li>Ingredient Lists (derived from photos of the ingredient labels, using <b>Amazon Mechanical Turk</b> <img width='100px'   src='qrcode_images/a4c4b8acf70fc3195eb8ba4ae2ad0659.png'></li>
-<li>Nutrition Label data )(derived from photos of nutorion labels, using Amazon Mechanical Turk )</li>
+<li>Ingredient Lists (derived from photos of the ingredient labels, using <b>Amazon Mechanical Turk</b> <img width='100px'   src='qrcode_images/520afb9e6d5c7758df6d3d1cd337fbf9.png'></li>
+<li>Nutrition Label data )(derived from photos of nutrition labels, using <b>Amazon Mechanical Turk</b> <img width='100px'   src='qrcode_images/520afb9e6d5c7758df6d3d1cd337fbf9.png'></li>
 </ul>
+<h2>Possibly useful resources</h2>
+<p><b>Dietary Assessment Primer</b> <img width='100px'   src='qrcode_images/a7278f853c2b20ad81a5457581b66f64.png'></p>
+<p>For example make an open source version of <b>this</b> <img width='100px'   src='qrcode_images/d9d0957eb4bb4b173eedad4038ac1833.png'></p>
+<p>A story about kids living  with peanut allergy: <b>Science 18 Oct 2018: Toxin or Treatment?</b> <img width='100px'   src='qrcode_images/997ae14bf157a5799d713a3dffad834d.png'></p>
 <h2>Software Components</h2>
 <ul>
 <li>An Iphone app that took rapid succession the following:<ul>

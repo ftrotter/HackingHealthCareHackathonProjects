@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>README_CareSet_partc_hcpcs_carrier_preliminary_2015</title>
+  </head>
+  <body>
+<!-- end get_html_header -->
+ <div class="container-fluid">
+<h1>CareSet Medicare Advantage (Part C) HCPCS Data Release README</h1>
+<p>This data release is derived from 2015 Medicare Advantage (Part C) claims data. It is based on HCPCS procedure code utilization aggregated at the state and nationally levels. This data is derived from the <b>CareSet Access to the preliminary release of the Part C data</b> <img width='100px'   src='qrcode_images/c14211e0c34b6b9c15a2ec66a860de01.png'>. CareSet (<b>https://careset.com/</b> <img width='100px'   src='qrcode_images/872f82f8daa64a3287f2eda663cb5a63.png'>) is the first organization to release a 'utilization' style data release for Part C data. Because this is based on preliminary data from CMS, it is possible that CareSet may later update this dataset. </p>
+<p>The data adheres to the CMS Privacy policy which states that patient data patterns containing less than 11 patients must be redacted.</p>
+<p>It is sourced from MA claims data from the outpatient/professional services (Carrier equivalent)  setting. This release does not include claims from Institutional Outpatient environment. For more information on what Part C Medicare - Advantage data is and how its derived, please see the User Guide <b>here</b> <img width='100px'   src='qrcode_images/2a48867c475ada5214641bef256ce05f.png'> from CMS.</p>
+<p>For comparison to traditional Medicare Fee-for-service utilization PUF, please refer to the public release by CMS. Their <b>release</b> <img width='100px'   src='qrcode_images/d1fbdf7e4343d82c22f7a7f9197dc669.png'> is separated out by place of service. For fee for service (Part A/B) Medicare there is a substantial payment difference between office-based and facility-based procedures. However, the payment information for Medicare Advantage is proprietary to the private payers who manage the program and is not released by CMS. Given this, we did not distinguish between facility and office-based procedures, since doing so would have reduced the amount of data that we can release publicly, and would not have enabled end users to make valid reimbursement conclusions.  </p>
+<p>Two files:</p>
+<ul>
+<li>CareSet_partc_hcpcs_carrier_national_preliminary_2015.csv - Part C National HCPCS Summary File</li>
+<li>CareSet_partc_hcpcs_carrier_state_preliminary_2015.csv - Part C HCPCS Summary File by State</li>
+</ul>
+<p>You may need to unzip the files you received in order to see these files</p>
+<h2>State Level Part-C Data Structure:</h2>
+<ul>
+<li>hcpcs_cd - the procedure code, read more about these codes from <b>Wikipedia hcpcs cd article</b> <img width='100px'   src='qrcode_images/22946bef08a569021d348474e8b865d0.png'></li>
+<li>state_code - SSA state codes, see link for state to state_code mappings, based on <b>state_code</b> <img width='100px'   src='qrcode_images/17840f7a109c190dbb730f5498bbc482.png'></li>
+<li>cnt_bene_id - count of distinct patients from <b>bene_id</b> <img width='100px'   src='qrcode_images/62e2fb7c7050147cfd701fd86be017be.png'></li>
+</ul>
+<h2>National Level Part-C Data Structure:</h2>
+<ul>
+<li>hcpcs_cd - the procedure code, read more about these codes from <b>Wikipedia hcpcs cd article</b> <img width='100px'   src='qrcode_images/22946bef08a569021d348474e8b865d0.png'></li>
+<li>cnt_bene_id - count of distinct patients from <b>bene_id</b> <img width='100px'   src='qrcode_images/62e2fb7c7050147cfd701fd86be017be.png'></li>
+</ul>
+
+
+<!-- from get_html_footer()  -->
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>DATA_STRUCTURE_README</title>
+  </head>
+  <body>
+<!-- end get_html_header -->
+ <div class="container-fluid">
+<h1>Regulations Comments Data ReadMe</h1>
+<p>This data directory contains the raw results of docket and document queries made against the regulations.gov API. 
+Data from the federal register is available in bulk, from URLS like this: </p>
+<p><b>https://www.gpo.gov/fdsys/bulkdata/</b> <img width='100px'   src='qrcode_images/00881e2b84cf670dd12dcc31f3ec52d4.png'></p>
+<p>Which contain the raw contents of the Federal Register (and also things like Bills, etc etc)</p>
+<p>However, for questionable reasons, these  bulk resources do not contain the comments that are submitted to through regulations.gov
+Further, still more questionable reasons, the API is rate limited. Both of these are likely related to the drama surrounding the </p>
+<p>The comments are only available as structured data through the regulations.gov API. 
+(If you know different please contact Fred Trotter)</p>
+<p>The documentation for that API lives here: <b>https://regulationsgov.github.io/developers/</b> <img width='100px'   src='qrcode_images/63fc1f5a2fe23d979fe220adea52e7ad.png'></p>
+<p>This file is full of data were harvested using GeekOffTheStreet <b>https://github.com/ftrotter/GeekOffTheStreet</b> <img width='100px'   src='qrcode_images/b070e56dbc92690ea19e016e66e7dae2.png'></p>
+<p>The data is split into three types of files that correspond to the main endpoints in the API</p>
+<ul>
+<li>Search results <b>https://api.data.gov/regulations/v3/documents</b> <img width='100px'   src='qrcode_images/fa17910945b66820b47b124850bb36d3.png'></li>
+<li>Dockets <b>https://api.data.gov/regulations/v3/docket</b> <img width='100px'   src='qrcode_images/20177f16d764fbbd4ce022c82d359f40.png'></li>
+<li>Documents <b>https://api.data.gov/regulations/v3/document</b> <img width='100px'   src='qrcode_images/e07b50e0ef29dfca4159c05154b50bdd.png'></li>
+</ul>
+<p>For comments that are submitted directly through regulations.gov in the web form, the docket API call will include the raw-text submitted for each comment. 
+Some comments however, are only availble as uploaded PDF or word document (etc) files. For these, you must do a call to the document(singlular) API 
+in order to get the url needed to download the pdf (or whatever) in question. GeekOnTheStreet only downloads the comment API data when it needs to, in order to get the comment text. </p>
+<h2>Search result data</h2>
+<p>Files that begin with 'search' are the results of searches against the API search <b>https://api.data.gov/regulations/v3/documents.json</b> <img width='100px'   src='qrcode_images/90fe83eed6e458732be8b00abddadad7.png'>
+The search functionality is largely equivlent to the advanced search functionality here: <b>https://www.regulations.gov/advancedSearch</b> <img width='100px'   src='qrcode_images/c65294a735daf32a4d41a53eb1db331d.png'>
+But for the most part, the automations of GeekOffTheStreet, simply throws a simple term into one end, and
+generates a file called search.whatEverThatSearchPhraseWas.type_.X.json
+The thing that lives after the type, is the type of search it was, which can be</p>
+<ul>
+<li>N: Notice</li>
+<li>PR: Proposed Rule</li>
+<li>FR: Rule</li>
+<li>O: Other</li>
+<li>SR: Supporting &amp; Related Material</li>
+<li>PS: Public Submission</li>
+</ul>
+<p>The searches will return a list of documents, with each document linking to a docket id</p>
+<h2>Docket data</h2>
+<p>This data files takes the form docket.FTC-Blah-Blah-Blah-2018-XXXX.1000.json 
+it always starts with docket.
+Then the agency and docketid, followed by a period. 
+Then the paging location, usually counting by the 1000s (the largest page size in the API). </p>
+<p>The vast majority of the comments will be contained in these docket files, especially for dockets where there was lots of interaction from the public. </p>
+<h2>Document data</h2>
+<p>Counterinutitively these are relatively rare. Gathered only when the docket record did not contain the comment. 
+These can include json, html, and pdf/whatever data. </p>
+<h1>Notes for GeekOnTheStreet users</h1>
+<p>The contents of the data/ directory are from GeekOnTheStreet 
+These should all be mirrored in google files as well. 
+but they will not be included in git because of the .gitignore</p>
+
+
+<!-- from get_html_footer()  -->
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
