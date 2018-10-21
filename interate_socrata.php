@@ -71,10 +71,10 @@ uasort($dataset_by_domain, function ($a, $b) {
 		$markdown .= "\n* [$domain]($domain_file) $dataset_count health datasets\n";
 		$c = '';
 		foreach($domain_attributions[$domain] as $attribution){
-			
-			$markdown .= "$c  * $attribution ";
-			$c = "\n";
-
+			if(strlen(trim($attribution)) > 0){	
+				$markdown .= "$c  * $attribution ";
+				$c = "\n";
+			}
 		}
 
 
