@@ -1,8 +1,8 @@
 
 Socrata Healthcare Datasets
 ======================
-* [data.smcgov.org](./socrata_markdown/data.smcgov.org.md) 67 health datasets from:  County of San Mateo, Department of Housing , CalRecycle , County of Alameda , Health System, San Mateo , Human Services Agency, County of San Mateo , County of San Mateo Housing Department , kidsdata.org, a program of the Lucile Packard Foundation for Children's Health , MLS Listings ,  , Bay Area Water Supply and Conservation Agency , County of San Mateo Health System 
-* [data.oregon.gov](./socrata_markdown/data.oregon.gov.md) 27 health datasets from:  Oregon Healthcare-Associated Infections (HAI) Program , logistics folder Data Provided by: Oregon Healthcare-Associated Infections (HAI) Program 
-* [greengov.data.ca.gov](./socrata_markdown/greengov.data.ca.gov.md) 4 health datasets from:  State Water Resources Control Board , SMARTS Database/SWRCB/DWQ/Stormwater , California State Water Resources Control Board 
+* [data.smcgov.org](./socrata_markdown/data.smcgov.org.md) 67 health datasets from:  CalRecycle , County of San Mateo, Department of Housing , Human Services Agency, County of San Mateo , County of San Mateo Housing Department , kidsdata.org, a program of the Lucile Packard Foundation for Children's Health , MLS Listings ,  , County of San Mateo Health System , Bay Area Water Supply and Conservation Agency , Health System, San Mateo , County of Alameda 
+* [data.oregon.gov](./socrata_markdown/data.oregon.gov.md) 26 health datasets from:  Oregon Healthcare-Associated Infections (HAI) Program , logistics folder Data Provided by: Oregon Healthcare-Associated Infections (HAI) Program 
+* [greengov.data.ca.gov](./socrata_markdown/greengov.data.ca.gov.md) 5 health datasets from:  SMARTS Database/SWRCB/DWQ/Stormwater , State Water Resources Control Board , California State Water Resources Control Board 
 * [data.delaware.gov](./socrata_markdown/data.delaware.gov.md) 1 health datasets from:  Department of Health and Social Services, Division of Public Health 
 * [data.texas.gov](./socrata_markdown/data.texas.gov.md) 1 health datasets from:  TX DFPS Data & Decision Support 

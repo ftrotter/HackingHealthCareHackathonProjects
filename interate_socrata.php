@@ -84,7 +84,7 @@ uasort($dataset_by_domain, function ($a, $b) {
 			$description = $this_dataset['description'];
 			$permalink = $this_dataset['permalink'];
 
-			$domain_markdown .= "* [$name]($permalink) - $description";
+			$domain_markdown .= "* [$name]($permalink) - $description\n";
 	
 		}
 		file_put_contents($domain_file,$domain_markdown);
