@@ -1,5 +1,2 @@
 # data.montgomeryal.gov health datasets
-* [All Suppression and EMS Incidents 2017 to Present](https://data.montgomeryal.gov/d/k3kk-nhfk) - Listing of all MFR Incidents including Incident Type, Alarm Time, Dispatch Time, Arrive Time, responding units, etc. Since EMS data is present in this dataset, the location of the incident is not included.
-* [36117 EMS](https://data.montgomeryal.gov/d/5dg9-69vn) - EMS Incident Types with NFIRS Codes in the 300's and 661. Due to privacy and HIPAA concerns, all patient information and the location of the Incident has been excluded.
-* [EMS Incidents by Incident Type 2017](https://data.montgomeryal.gov/d/39tx-4g4t) - EMS Incident Types with NFIRS Codes in the 300's and 661.
 * [EMS Incidents 2016 to present](https://data.montgomeryal.gov/d/fkrd-hh7z) - EMS Incident Types with NFIRS Codes in the 300's and 661. Due to privacy and HIPAA concerns, all patient information and the location of the Incident has been excluded.

@@ -42,7 +42,7 @@
 			$is_more = false;
 		}
 
-		$offset = $offset + 100;
+		$offset = $offset + 500;
 		echo '.';
 	}
 
@@ -66,11 +66,12 @@ uasort($dataset_by_domain, function ($a, $b) {
 
 		$domain_file = $socrata_dir.$domain.'.md';
 
-		$markdown .= "* [$domain]($domain_file) $dataset_count health datasets from: ";
-		$c = '';
+		$markdown .= "* [$domain]($domain_file) $dataset_count health datasets\n ";
+		$c = "";
 		foreach($domain_attributions[$domain] as $attribution){
-			$markdown .= "$c $attribution ";
-			$c = ',';
+			
+			$markdown .= "$c * $attribution ";
+			$c = "\n";
 		}
 
 
@@ -90,7 +91,6 @@ uasort($dataset_by_domain, function ($a, $b) {
 		}
 		file_put_contents($domain_file,$domain_markdown);
 		
-		$markdown .= "\n";
 
 	}
 
