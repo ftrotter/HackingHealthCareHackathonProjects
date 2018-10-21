@@ -82,6 +82,8 @@ uasort($dataset_by_domain, function ($a, $b) {
 		
 			$name = $this_dataset['name'];
 			$description = $this_dataset['description'];
+			$description = trim(preg_replace('/\s\s+/', ' ', $description));
+
 			$permalink = $this_dataset['permalink'];
 
 			$domain_markdown .= "* [$name]($permalink) - $description\n";
