@@ -1,5 +1,18 @@
 <?php
+/*
+	This program scrapes the healthcare related projects from Socrata's meta site
+	And then creates a list of the dataset, organized by originating domain name
 
+	Many of the items under the 'health' tag on the socrata site have little do with healthcare. 
+	And given that almost everything could impact health, including crime, waste management and ecology
+	
+	As a result, many of the 'health' tag results from the website are not really 'healthcare' per se..
+	
+	To handle this, the socrata_name_filter.php file 
+	the socrata_name_filter.php file contains an array of string values that will cause 
+	
+
+*/
 	$base_url = "http://api.us.socrata.com/api/catalog/v1?categories=health&limit=100&offset=";
 
 	$is_more = true;
